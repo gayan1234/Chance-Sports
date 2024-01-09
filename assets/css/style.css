@@ -4953,6 +4953,21 @@ END TEAM DETAILS DESIGN
 	z-index: 100;
   }
 
+  .whatsapp_float_1 {
+	position:inherit;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:77%;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+		  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+  }
+
 .whatsapp_float.hidden {
 	display: none;
   }
@@ -5023,4 +5038,25 @@ END TEAM DETAILS DESIGN
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
   }
+
+  @media (min-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 19.66666667%;
+    }
+}
+
+  /* The transparent pop-up */
+  #popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.6); /* Adjust the transparency here */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
 
